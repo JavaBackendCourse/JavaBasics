@@ -18,6 +18,9 @@ public class TelephoneBookApplication {
         while (true) {
             System.out.println("PRESS [1] TO ADD A RECORD TO TELEPHONE BOOK");
             System.out.println("PRESS [2] TO LIST RECORDS OF THE TELEPHONE BOOK");
+            System.out.println("PRESS [3] TO REMOVE A RECORD FROM THE TELEPHONE BOOK");
+            System.out.println("PRESS [4] TO FIND A RECORD IN THE TELEPHONE BOOK");
+            System.out.println("PRESS [5] TO SORT RECORDS OF THE TELEPHONE BOOK");
             System.out.println("PRESS [0] TO EXIT");
 
             String choice = in.next();
