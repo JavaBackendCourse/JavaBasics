@@ -25,7 +25,7 @@ public class Task4 {
 
     private static String searchGold(int mineNumber) {
         try {
-            int searchTime = random.nextInt(5) + 1;
+            int searchTime = random.nextInt(8) + 3;
             Thread.sleep(searchTime * 1000);
             return "Золото найдено в шахте №" + mineNumber + "!";
         } catch (InterruptedException e) {
